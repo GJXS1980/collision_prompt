@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<launch>
+    <node pkg = "collision_prompt" type = "COLLISION_PROMPT_NODE" name = "COLLISION_PROMPT_NODE">
+        <param name="playPath_path" value="play /opt/ros/melodic/share/collision_prompt/voice/stop.wav"/>
+
+    </node>
+
+</launch>
